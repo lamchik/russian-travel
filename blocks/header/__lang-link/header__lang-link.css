@@ -1,11 +1,21 @@
 .header__lang-link {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;;
     color: #FFFFFF;
     font-size: 1.5rem;
     line-height: 1.2;
+    text-decoration: none;
+    padding-right: 18px;
 }
 
 .header__lang-link:last-child {
-    text-decoration: none;
-    margin-left: 18px;
+    padding-right: 0;
+}
+
+@media all and (max-width: 320px) {
+    .header__lang-link {
+        font-size: 1.1rem;
+        line-height: 1.3;
+    }
 }
