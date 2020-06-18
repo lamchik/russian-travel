@@ -1,5 +1,5 @@
 .footer__link-text {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', 'Arial', sans-serif;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;;
     font-size: 1rem;
@@ -10,4 +10,11 @@
 
 .footer__link-text:hover {
     opacity: 0.8;
+}
+
+@media all and (max-width: 767px) {
+    .footer__link-text {
+        font-size: 1.5rem;
+        line-height: 1;
+    }
 }

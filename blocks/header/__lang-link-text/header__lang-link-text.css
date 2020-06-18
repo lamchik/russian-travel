@@ -1,0 +1,21 @@
+.header__lang-link-text {
+    font-family: 'Inter', 'Arial', sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.header__lang-link-text:hover {
+    opacity: 0.8;
+}
+
+
+@media all and (max-width: 320px) {
+    .header__lang-link-text {
+        font-size: 1.12rem;
+        line-height: 1.33;
+    }
+}

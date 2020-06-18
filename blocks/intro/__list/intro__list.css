@@ -2,10 +2,10 @@
     padding: 0;
     list-style-type: none;
     color: #ffffff;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', 'Arial', sans-serif;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;;
-    font-size: 0,75rem;
+    font-size: 0.75rem;
     line-height: 1.5;
     font-weight: bold;
 }

@@ -1,11 +1,12 @@
 .place__url-heading {
     margin: 0;
     padding-bottom: 12px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', 'Arial', sans-serif;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;;
     font-size: 0.75rem;
     line-height: 1.7;
     letter-spacing: 0.2em;
+    text-transform: uppercase;
     color: #aaaaaa;
 }

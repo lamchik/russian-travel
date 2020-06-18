@@ -1,5 +1,5 @@
 .place__link {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', 'Arial', sans-serif;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;;
     font-size: 1.1rem;

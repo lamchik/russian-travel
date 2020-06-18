@@ -1,10 +1,16 @@
+@import url(./__title/intro__title.css);
+@import url(./__text/intro__text.css);
+@import url(./__list-wrapper/intro__list-wrapper.css);
+@import url(./__list/intro__list.css);
+@import url(./__counter/intro__counter.css);
+
 .intro {
     max-width: 690px; 
     margin-bottom: 92px;
     padding: 0 148px;
 }
 
-@media all and (min-width: 1024px) and (max-width: 1280px) {
+@media all and (min-width: 1024px) and (max-width: 1279px) {
     .intro {
         padding: 0 48px;
     }
@@ -18,7 +24,7 @@
     }
 }
 
-@media all and (min-width: 320px) and (max-width: 767px) {
+@media all and (max-width: 767px) {
     .intro {
         padding: 0 16px;
         margin-bottom: 64px;

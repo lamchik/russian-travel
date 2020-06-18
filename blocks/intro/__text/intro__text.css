@@ -2,9 +2,9 @@
     margin: 0;
     padding-top: 40px;
     color: #ffffff;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', 'Arial', sans-serif;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;;
     font-size: 1rem;
-    line-height: 1.6;
+    line-height: 1.63;
 }
