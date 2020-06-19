@@ -11,8 +11,6 @@
 @media all and (max-width: 767px) {
     .footer__link {
         padding: 0 0 32px;
-        font-size: 1.5rem;
-        line-height: 1;
     }
     .footer__link:last-child {
         padding: 0;
